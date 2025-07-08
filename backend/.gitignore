@@ -1,0 +1,25 @@
+# Ignore model files
+*.pkl
+*.joblib
+
+# Ignore dataset folder
+fruits_vegetables_dataset(12000)/
+
+# Node modules and build files
+node_modules/
+build/
+dist/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db

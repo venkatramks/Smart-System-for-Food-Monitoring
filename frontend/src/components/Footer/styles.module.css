@@ -1,0 +1,41 @@
+/* src/components/Footer/styles.module.css */
+
+.footer {
+    background-color: #e9f5f9; /* Very light, almost off-white blue */
+    color: #555; /* Dark grey text for readability */
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 0.8em;
+    border-top: 1px solid #ddd; /* Subtle top border */
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.05); /* Very faint shadow */
+  }
+  
+  .footer a {
+    color: #77b5fe; /* A slightly brighter blue for links */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* If you want to have social media icons */
+  .socialIcons {
+    margin-top: 5px;
+  }
+  
+  .socialIcons a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 1.2em; /* Adjust icon size */
+    color: #888;       /* Muted grey for icons */
+  }
+  
+  .socialIcons a:hover {
+    color: #77b5fe; /* Blue on hover */
+  }

@@ -1,0 +1,32 @@
+# Ignore large model files
+*.pkl
+*.h5
+*.pt
+*.joblib
+
+# Ignore dataset folder
+fruits_vegetables_dataset(12000)/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Node.js and React build files
+node_modules/
+dist/
+build/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+
+# Log files
+*.log

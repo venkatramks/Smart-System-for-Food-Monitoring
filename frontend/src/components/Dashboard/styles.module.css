@@ -1,0 +1,65 @@
+/* Dashboard/styles.module.css */
+.dashboardContainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 140vh;
+    background-color: #fefefe;
+  }
+  
+  .fridgeBackground {
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #97ece5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  /* Add some spacing for better readability */
+  .fridgeBackground > * {
+    margin-bottom: 15px;
+  }
+  
+  /* Style for the temperature and date/time display */
+  .temperatureDisplay,
+  .dateTimeDisplay {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  /* Style for the input fields */
+  .fridgeBackground input[type="text"],
+  .fridgeBackground input[type="number"] {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style for the buttons */
+  .fridgeBackground button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .temperatureDisplay {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.chartContainer {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin: auto;
+}
+
